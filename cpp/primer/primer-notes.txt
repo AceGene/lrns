@@ -1,0 +1,22 @@
+reference refers to ivalue reference, rvalue more coms
+
+Lvalues and rvalues also differ when used with decltype (§ 2.5.3, p. 70). When
+we apply decltype to an expression (other than a variable), the result is a reference
+type if the expression yields an lvalue. As an example, assume p is an int*. Because
+dereference yields an lvalue, decltype(*p) is int&. On the other hand, because
+the address-of operator yields an rvalue, decltype(&p) is int**, that is, a pointer
+to a pointer to type int.
+4.11
+To make return values machine
+independent, the cstdlib header defines two preprocessor variables (§ 2.3.2, p. 54)
+that we can use to indicate success or failure:
+6.3.3 tells array pointer dereference chain for function call
+6.4 shortstrings thing wtf
+6.5 debug stuff
+6.7 
+// Func and Func2 have function type
+typedef bool Func(const string&, const string&);
+typedef decltype(lengthCompare) Func2; // equivalent type
+// FuncP and FuncP2 have pointer to function typeC++ Primer, Fifth Edition
+typedef bool(*FuncP)(const string&, const string&);
+typedef decltype(lengthCompare) *FuncP2;  // equivalent type

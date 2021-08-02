@@ -1,3 +1,3 @@
 [submodule "cpp/primer/primer-exercises-5th"]
-	path = cpp/primer/primer-exercises-5th
-	url = https://github.com/jaege/Cpp-Primer-5th-Exercises.git
+    path = cpp/primer/primer-exercises-5th
+    url = https://github.com/jaege/Cpp-Primer-5th-Exercises.git

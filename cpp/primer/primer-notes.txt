@@ -13,7 +13,7 @@ that we can use to indicate success or failure:
 6.3.3 tells array pointer dereference chain for function call
 6.4 shortstrings thing wtf
 6.5 debug stuff
-6.7 
+6.7
 // Func and Func2 have function type
 typedef bool Func(const string&, const string&);
 typedef decltype(lengthCompare) Func2; // equivalent type
